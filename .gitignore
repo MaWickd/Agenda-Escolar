@@ -1,0 +1,19 @@
+# Python / FastAPI
+Backend/.venv/
+Backend/__pycache__/
+Backend/*.db
+*.db
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+
+# IDEs e Arquivos de Sistema
+.vscode/
+.idea/
+*.iml
+.DS_Store

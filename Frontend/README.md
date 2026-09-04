@@ -1,17 +1,34 @@
-# flutter_application_1
+# 📚 Agenda Escolar - Full-Stack
 
-A new Flutter project.
+Um sistema completo de agenda escolar digital desenvolvido para facilitar a organização acadêmica de alunos e professores, centralizando tarefas e rotinas.
 
-## Getting Started
+## 🚀 Tecnologias Utilizadas
 
-This project is a starting point for a Flutter application.
+O projeto foi construído utilizando uma arquitetura moderna dividida entre Front-end e Back-end:
 
-A few resources to get you started if this is your first Flutter project:
+*   **Front-end:** Flutter & Dart (Multiplataforma)
+*   **Back-end:** Python, FastAPI, Uvicorn
+*   **Banco de Dados:** SQLite
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## ⚙️ Funcionalidades
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+*   Dashboard exclusivo e personalizado para Alunos e Professores.
+*   Criação e gestão de novas atividades e tarefas.
+*   Sistema de cadastro e login de usuários.
+*   Interface fluida, responsiva e de fácil navegação.
+
+## 🛠️ Como rodar o projeto localmente
+
+### Pré-requisitos
+Certifique-se de ter instalado em sua máquina:
+*   [Flutter SDK](https://flutter.dev/docs/get-started/install)
+*   [Python 3.x](https://www.python.org/downloads/)
+
+### 1. Iniciando o Back-end (API)
+Navegue até a pasta do backend e inicie o servidor:
+```bash
+cd Backend
+# Ative o ambiente virtual (Windows)
+.\.venv\Scripts\activate
+# Inicie a API
+uvicorn main:app --reload
